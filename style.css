@@ -1,6 +1,21 @@
+/*? UTILITIES */
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+[class*= 'col'] [class*= 'col'],
+[class*= 'col'] [class*= 'col-'],
+[class*= 'col-'] [class*= 'col-']{
+    background-color: #f07f80;
+}
+
+[class*= 'col'],  [class*= 'col-']{
+    height: 200px;
+    min-height:50px;
+    background-color: #ffc0cb;
+    border: 1px dotted black;
+}
+
+/*? BODY */
