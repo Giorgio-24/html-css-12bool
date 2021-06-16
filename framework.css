@@ -175,6 +175,18 @@
     justify-content: space-evenly;
 }
 
+.order-1{
+    order: 1;
+}
+
+.order-0{
+    order: 0;
+}
+
+.order-minus-1{
+    order: -1;
+}
+
 @media screen and ( min-width:576px) {
       /*? FULL SPACE COLUMN */
 .col-sm{
@@ -320,6 +332,19 @@
 .space-evenly-sm{
     justify-content: space-evenly;
 }
+
+.order-1-sm{
+    order: 1;
+}
+
+.order-0-sm{
+    order: 0;
+}
+
+.order-minus-1-sm{
+    order: -1;
+}
+
 }
 
 @media screen and (min-width:768px){
@@ -467,6 +492,19 @@
 .space-evenly-md{
     justify-content: space-evenly;
 }
+
+.order-1-md{
+    order: 1;
+}
+
+.order-0-md{
+    order: 0;
+}
+
+.order-minus-1-md{
+    order: -1;
+}
+
 }
 
 @media screen and (min-width:992px){
@@ -614,6 +652,19 @@
 .space-evenly-lg{
     justify-content: space-evenly;
 }
+
+.order-1-lg{
+    order: 1;
+}
+
+.order-0-lg{
+    order: 0;
+}
+
+.order-minus-1-lg{
+    order: -1;
+}
+
 }
 
 @media screen and (min-width:1200px){
@@ -761,6 +812,19 @@
 .space-evenly-xl{
     justify-content: space-evenly;
 }
+
+.order-1-xl{
+    order: 1;
+}
+
+.order-0-xl{
+    order: 0;
+}
+
+.order-minus-1-xl{
+    order: -1;
+}
+
 }
 
 @media screen and (min-width:1400px){
@@ -908,4 +972,17 @@
 .space-evenly-xxl{
     justify-content: space-evenly;
 }
+
+.order-1-xxl{
+    order: 1;
+}
+
+.order-0-xxl{
+    order: 0;
+}
+
+.order-minus-1-xxl{
+    order: -1;
+}
+
 }
